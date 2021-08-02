@@ -1,0 +1,20 @@
+ALGORITMO questao1
+DECLARE d, m, a: INTEIRO
+INICIO
+	LEIA(d, m, a)
+	d <- (d*100) + m + a;
+	d <- d % 5;
+	
+	CASO d SEJA:
+		0:
+			ESCREVA("5 - Irresistivel")
+		1:
+			ESCREVA("1 - Timido")
+		2:
+			ESCREVA("2 - Sonhador")
+		3:
+			ESCREVA("3 - Paquerador")
+		4:
+			ESCREVA("4 - Atraente")
+	FIMCASO
+FIM.
