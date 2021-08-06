@@ -75,13 +75,17 @@ int main(){
 		for(linhas = 0; linhas < numeroDeLinhas; linhas++) //Este for escreve os �tomos em sequ�ncia e espa�ados, come�ando de fato a tabela.
 		{
 			
-			if(linhas < 9) //Este if/else � apenas para organizar a tabela e garantir que tudo fique alinhado.
+			if(linhas < 9) //Este if/else é apenas para organizar a tabela e garantir que tudo fique alinhado.
+			{
+				printf("Linha %d    = ", linhas + 1);
+			}
+			else if(linhas < 99)
+			{	
+				printf("Linha %d   = ", linhas + 1);
+			}
+			else if(linhas < 999)
 			{
 				printf("Linha %d  = ", linhas + 1);
-			}
-			else
-			{	
-				printf("Linha %d = ", linhas + 1);
 			}
 			
 			for(contador = 0; contador < numeroDeAtomos; contador++)  //Este � o for respons�vel por escrever a matriz final.
