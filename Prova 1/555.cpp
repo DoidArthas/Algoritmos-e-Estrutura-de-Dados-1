@@ -14,7 +14,7 @@ int main()
     resto = (soma%5);
     switch (resto - 1){
     	case -1:
-    		printf(" 5 - Irresistível\n");
+    		printf(" 5 - Irresistivel\n");
     		break;
         case 0:
             printf(" 1 - Timido\n");

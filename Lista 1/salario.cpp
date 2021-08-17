@@ -1,6 +1,4 @@
-#include <bits/stdc++.h>
-
-using namespace std;
+#include <stdio.h>
 
 int main() {
 	
@@ -25,4 +23,5 @@ int main() {
 	
 	printf("%d", v);
 	
+	return 0;
 }

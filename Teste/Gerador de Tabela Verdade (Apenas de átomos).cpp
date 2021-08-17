@@ -1,6 +1,5 @@
-#include <bits/stdc++.h>
-
-using namespace std;
+#include <stdio.h>
+#include <math.h>
 
 int main()
 {	
@@ -35,7 +34,7 @@ int main()
 		int atualNumeroDeVF;
 
 		printf("\n\n");
-		printf("           ");
+		printf("             ");
 
 		for(contador = 0; contador < numeroDeAtomos; contador++) //Este for preenche a matriz responsável por guardar os V/F's.
 		{
