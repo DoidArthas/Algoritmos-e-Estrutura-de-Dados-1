@@ -8,5 +8,7 @@
 
  Serão inclusos exercícios do segundo período, que basicamente avançam a disciplina.
 
+ Os enunciados dos exercícios estarão no final de cada arquivo (se eu tiver colocado).
+
  Além dos exercícios, aqui eu coloco também meus testes e auto desafios 
  com a linguagem.
