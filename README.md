@@ -6,5 +6,7 @@
  Estou postando no github por conta das facilidades de organização, e para
  familiarização com a plataforma.
 
+ Serão inclusos exercícios do segundo período, que basicamente avançam a disciplina.
+
  Além dos exercícios, aqui eu coloco também meus testes e auto desafios 
  com a linguagem.
