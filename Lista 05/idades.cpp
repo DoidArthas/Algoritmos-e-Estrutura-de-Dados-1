@@ -4,8 +4,8 @@ int main(){
 	
 	int x, s = 0, n;
 	
-	do{
-		
+	do
+	{	
 		scanf("%d", &n);
 		
 		if(n > 0)
