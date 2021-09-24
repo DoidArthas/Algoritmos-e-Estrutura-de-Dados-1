@@ -2,7 +2,7 @@
 *.pdf
 *.rar
 *.zip
-
+*.dat
 
 # Prerequisites
 *.d
