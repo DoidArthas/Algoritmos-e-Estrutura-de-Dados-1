@@ -19,18 +19,19 @@ void menor(void)
 
     for(c = 1; c < 5; c++)
     {
-       scanf("%d", &n[c]);
-       if(n[c] < menor)
-       {
-           menor = n[c];
-       }
-       else if(n[c] > maior)
-       {
-           maior = n[c];
-       }
+        scanf("%d", &n[c]);
+
+        if(n[c] < menor) menor = n[c];
+        else if(n[c] > maior) maior = n[c];
     }
 
     printf("Maior = %d\nMenor = %d\n", maior, menor);
 
     return;
 }
+
+/*
+***********************************************************************
+* 
+***********************************************************************
+*/

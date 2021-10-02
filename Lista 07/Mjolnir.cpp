@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
-int main() {
-	
+int main()
+{
 	char p[30];
 	int c, n, f;
 	
@@ -13,12 +13,15 @@ int main() {
 		scanf(" %s", &p);
 		scanf("%d", &f);
 		
-		if(strcmp(p, "Thor") == 0)	
-			printf("Y\n");
-		else
-			printf("N\n");
-		
+		if(strcmp(p, "Thor") == 0) printf("Y\n");
+		else printf("N\n");
 	}
 	
 	return 0;
 }
+
+/*
+***********************************************************************
+* 
+***********************************************************************
+*/

@@ -17,30 +17,23 @@ int main()
                 media = media + m[l][c];
             }
             
-            if(l == 0 && c == 0)
-            {
-                menor = m[l][c];
-            }else if(m[l][c] < menor)
-            {
-                menor = m[l][c];
-            }
+            if(l == 0 && c == 0) menor = m[l][c];
+            else if(m[l][c] < menor) menor = m[l][c];
 
-            if(l != c)
-            {
-                soma = soma + m[l][c];
-            }
+            if(l != c) soma = soma + m[l][c];
         }
     }
 
-    if(menor % 2 == 0)
-    {
-        delta = 1;
-    }else
-    {
-        delta = 0;
-    }
+    if(menor % 2 == 0) delta = 1;
+    else delta = 0;
 
     printf("%.2lf %d %d %d\n", media / p, menor, delta, soma);
 
     return 0;
 }
+
+/*
+***********************************************************************
+* 
+***********************************************************************
+*/

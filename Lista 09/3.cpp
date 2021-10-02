@@ -25,16 +25,15 @@ int main()
         soma = a[c].n1 + a[c].n2;
         printf("\n%s\n%s\n%.2f + %.2f = %2.f, ", a[c].ra, a[c].nome, a[c].n1, a[c].n2, soma);
         
-        if(soma >= 6)
-        {
-            printf("Aprovado\n");
-        }
-        else
-        {
-            printf("Reprovado\n");
-        }
-
+        if(soma >= 6) printf("Aprovado\n");
+        else printf("Reprovado\n");
     }
 
     return 0;
 }
+
+/*
+***********************************************************************
+* 
+***********************************************************************
+*/

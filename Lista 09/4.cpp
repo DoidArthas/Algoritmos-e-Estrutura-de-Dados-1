@@ -35,23 +35,17 @@ int main()
         printf("Consumo       : %.2lf\n", cl[c].consumo); 
         printf("Valor a pagar : R$");
 
-        if(cl[c].consumo > 15)
-        {
-            printf("%.2lf\n", cl[c].consumo * 10.5);
-        }
-        else if(cl[c].consumo > 10)
-        {
-            printf("%.2lf\n", cl[c].consumo * 6.94);
-        }
-        else if(cl[c].consumo > 5)
-        {
-            printf("%.2lf\n", cl[c].consumo * 3.4);
-        }
-        else
-        {
-            printf("%.2lf\n", cl[c].consumo * 1.34);
-        }
+        if(cl[c].consumo > 15) printf("%.2lf\n", cl[c].consumo * 10.5);
+        else if(cl[c].consumo > 10) printf("%.2lf\n", cl[c].consumo * 6.94);
+        else if(cl[c].consumo > 5) printf("%.2lf\n", cl[c].consumo * 3.4);
+        else printf("%.2lf\n", cl[c].consumo * 1.34);
     }
 
     return 0;
 }
+
+/*
+***********************************************************************
+* 
+***********************************************************************
+*/

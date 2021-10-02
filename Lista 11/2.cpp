@@ -12,10 +12,7 @@ int main()
     if(arq1 == NULL) printf("ERRO DE ABERTURA\n");
     else
     {
-        for(c = 0; c < tam; c++)
-        {
-            fscanf(arq1, "%d", &n[c]);
-        }
+        for(c = 0; c < tam; c++) fscanf(arq1, "%d", &n[c]);
 
         fclose(arq1);
     }
@@ -23,20 +20,14 @@ int main()
     for(c = 0; c < tam; c++)
     {
         menor = c;
-        for(l = (c + 1); l < tam; l++)
-        {
-            if(n[l] < n[menor]) menor = l;
-        }
+        for(l = (c + 1); l < tam; l++) if(n[l] < n[menor]) menor = l;
 
         tmp = n[c];
         n[c] = n[menor];
         n[menor] = tmp;
     }
 
-    for(c = 0; c < tam; c++)
-    {
-        printf("%d\n", n[c]);
-    }
+    for(c = 0; c < tam; c++) printf("%d\n", n[c]);
 
     return 0;
 }

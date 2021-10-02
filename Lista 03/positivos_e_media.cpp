@@ -19,6 +19,7 @@ int main ()
 	
 	return 0;
 }
+
 /*
 ***********************************************************************
 * Leia 6 valores. Em seguida, mostre quantos destes valores digitados *

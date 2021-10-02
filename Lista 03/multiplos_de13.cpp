@@ -20,6 +20,7 @@ int main()
 	
 	return 0;
 }
+
 /*
 ***********************************************************************
 * Escreva um algoritmo que leia 2 valores inteiros X e Y calcule a    *

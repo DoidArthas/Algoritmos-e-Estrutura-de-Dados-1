@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
-int main() {
-	
+int main()
+{	
 	char s[100];
 	int c, n = 0;
 
@@ -11,14 +11,17 @@ int main() {
 	for(c = 0; c < strlen(s); c++)
 	{
 		if(s[c] == '1')
-			n++;
-		
+			n++;	
 	}
 	
-	if(n % 2 == 0)
-		printf("%s0\n", s);
-	else
-		printf("%s1\n", s);
+	if(n % 2 == 0) printf("%s0\n", s);
+	else printf("%s1\n", s);
 	
 	return 0;
 }
+
+/*
+***********************************************************************
+* 
+***********************************************************************
+*/

@@ -2,25 +2,15 @@
 
 int main()
 {	
-	int dia, dp = 0, p, v, f, c;
+	int n, h;
+	float v;
 	
-	scanf("%d%d%d%d", &dia, &p, &v, &f);
+	scanf("%d", &n);
+	scanf("%d", &h);
+	scanf("%f", &v);
 	
-	for(c = 0; c < f; c++)
-	{
-		printf("DP: %d\n", dp);
-		printf("\nP: %d\n\n", p);
-		dp = (c + dia) % 2;
-		
-		if(dp == 0) p = v + 5;
-		else
-		{
-			p = v - 5;
-		}
-		
-	}
-	
-	printf("%d", v);
+	printf("NUMBER = %d\n", n);
+	printf("SALARY = U$ %0.2f\n", v*h);
 	
 	return 0;
 }

@@ -20,10 +20,7 @@ int main()
         scanf("%f", &a[c].m);
         soma = soma + a[c].m;
 
-        if(a[c].nome[0] == 'L')
-        {
-            l++;
-        }
+        if(a[c].nome[0] == 'L') l++;
     }
 
     soma = soma / q;
@@ -32,14 +29,16 @@ int main()
     printf("\nPorcentagem de alunos que tem nome comecado em L: ");        
     printf("%.2f\n\n", (100 * l) / q);
 
-    for(c = 0; c < q; c++)
+    for(c = 0; c < q; c++) if(a[c].m >= 6)
     {
-        if(a[c].m >= 6)
-        {
-            printf("%s: Aprovado com Media %.2f\n", a[c].nome, a[c].m);
-        }
-
+        printf("%s: Aprovado com Media %.2f\n", a[c].nome, a[c].m);
     }
 
     return 0;
 }
+
+/*
+***********************************************************************
+* 
+***********************************************************************
+*/

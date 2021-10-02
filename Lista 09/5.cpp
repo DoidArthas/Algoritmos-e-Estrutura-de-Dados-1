@@ -22,22 +22,10 @@ int main()
         scanf("%lf", &cl[c].consumo);
         printf("\n");
 
-        if(cl[c].consumo > 15)
-        {
-            cl[c].tarja = 'V';
-        }
-        else if(cl[c].consumo > 10)
-        {
-            cl[c].tarja = 'L';
-        }
-        else if(cl[c].consumo > 5)
-        {
-            cl[c].tarja = 'A';
-        }
-        else
-        {
-            cl[c].tarja = 'E';
-        }
+        if(cl[c].consumo > 15) cl[c].tarja = 'V';
+        else if(cl[c].consumo > 10) cl[c].tarja = 'L';
+        else if(cl[c].consumo > 5) cl[c].tarja = 'A';
+        else cl[c].tarja = 'E';
     }
 
     for(c = 0; c < q; c++)
@@ -69,9 +57,14 @@ int main()
                 printf("Tarja                    : Verde\n"); 
                 break;           
         }
-
         printf("\n");
     }
 
     return 0;
 }
+
+/*
+***********************************************************************
+* 
+***********************************************************************
+*/

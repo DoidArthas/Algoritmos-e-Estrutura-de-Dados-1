@@ -26,14 +26,8 @@ int main ()
             menor = c;
             maior = c; 
         }
-        else if(p[c].idade < p[menor].idade)
-        {
-            menor = c;
-        }
-        else if(p[c].idade > p[maior].idade)
-        {
-            maior = c;
-        }
+        else if(p[c].idade < p[menor].idade) menor = c;
+        else if(p[c].idade > p[maior].idade) maior = c;
 
         media = p[c].idade + media;
     }
@@ -51,3 +45,9 @@ int main ()
 
     return 0;
 }
+
+/*
+***********************************************************************
+* 
+***********************************************************************
+*/

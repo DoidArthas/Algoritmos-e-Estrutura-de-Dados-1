@@ -23,23 +23,22 @@ int main()
         scanf(" %[^\n]c", ca[c].cidade);
         scanf(" %[^\n]c", ca[c].estado);
 
-        if(strcmp(ca[c].estado, "MG") == 0)
-        {
-            mg++;
-        }
+        if(strcmp(ca[c].estado, "MG") == 0) mg++;
     }
 
     printf("\nCarros de MG: %d\n\n", mg);
 
     printf("\nCarros de ano anterior a 2016:\n\n");
-    for(c = 0; c < q; c++)
+    for(c = 0; c < q; c++) if(ca[c].ano < 2016)
     {
-        if(ca[c].ano < 2016)
-        {
-            printf("%s\n", ca[c].modelo);
-            printf("%d\n", ca[c].ano);
-            printf("%s\n\n", ca[c].dono);
-        }
-        
+        printf("%s\n", ca[c].modelo);
+        printf("%d\n", ca[c].ano);
+        printf("%s\n\n", ca[c].dono);
     }
 }
+
+/*
+***********************************************************************
+* 
+***********************************************************************
+*/
