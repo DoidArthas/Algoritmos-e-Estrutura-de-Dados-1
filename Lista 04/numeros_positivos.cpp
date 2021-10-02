@@ -1,26 +1,44 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{	
+	int x = 0, positivos = 0;
+	float n;
 	
-	int x[10], c;
-	
-	for(c = 0; c < 10; c++)
+	while (x < 6)
 	{
-		scanf("%d", &x[c]);
+		scanf("%f", &n);
 		
-		if(x[c] <=  0)
-		{
-			x[c] = 1;
-		}
+		if(n > 0) positivos++;
 		
+		x++;
 	}
 	
-	for(c = 0; c < 10; c++)
-	{
-		
-		printf("X[%d] = %d\n", c, x[c]);
-		
-	}
+	printf("%d valores positivos\n", positivos);
 	
 	return 0;
 }
+
+/*
+***********************************************************************
+* Faça um programa que leia 6 valores. Estes valores serão somente    *
+* negativos ou positivos (desconsidere os valores nulos). A seguir,   *
+* mostre a quantidade de valores positivos digitados.                 *
+*                                                                     *
+* Entrada:                                                            *
+* Seis valores, negativos e/ou positivos.                             *
+*                                                                     *
+* Saída:                                                              *
+* Imprima uma mensagem dizendo quantos valores positivos foram lidos. *
+*                                                                     *
+* |Exemplos de Entrada | Exemplos de Saída |                          *
+* |7                   |4 valores positivos|                          *
+* |-5                  |                   |                          *
+* |6                   |                   |                          *
+* |-3.4                |                   |                          *
+* |4.6                 |                   |                          *
+* |12                  |                   |                          *
+* |                    |                   |                          *
+* |--------------------|-------------------|                          *
+***********************************************************************
+*/
