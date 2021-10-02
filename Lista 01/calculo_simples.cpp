@@ -2,13 +2,13 @@
 
 int main()
 {
-	int p1c, p1n, p2c, p2n;
-	float p1v, p2v;
+	int prod1Cod, prod1Qtd, prod2Cod, prod2Qtd;
+	float prod1Valor, prod2Valor;
 	
-	scanf("%d%d%f", &p1c, &p1n, &p1v);
-	scanf("%d%d%f", &p2c, &p2n, &p2v);
+	scanf("%d%d%f", &prod1Cod, &prod1Qtd, &prod1Valor);
+	scanf("%d%d%f", &prod2Cod, &prod2Qtd, &prod2Valor);
 	
-	printf("VALOR A PAGAR: R$ %0.2f\n", (p1n * p1v) + (p2n * p2v));
+	printf("VALOR A PAGAR: R$ %0.2f\n", (prod1Qtd * prod1Valor) + (prod2Qtd * prod2Valor));
 	
 	return 0;
 }
