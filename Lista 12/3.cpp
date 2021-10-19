@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+#define I 6 
+
 int somaV(int v[], int i)
 {
     if(i == 0) return v[0];
@@ -8,15 +10,15 @@ int somaV(int v[], int i)
 
 int main()
 {
-    int i = 6, c;
-    int v[i];
+    int c;
+    int v[I];
 
-    for(c = 0; c < i; c++)
+    for(c = 0; c < I; c++)
     {
         scanf("%d", &v[c]);
     }
 
-    printf("\n%d\n", somaV(v, i - 1));
+    printf("\n%d\n", somaV(v, I - 1));
 
     return 0;
 }

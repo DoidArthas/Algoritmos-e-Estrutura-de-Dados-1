@@ -1,0 +1,16 @@
+String: UMDOIS
+
+       U M D O I S
+i = 0: M U D O I S
+i = 1: M D U O I S
+i = 2: D M U O I S
+i = 3: D M O U I S
+i = 4: D M O I U S
+i = 5: D M I O U S
+i = 6: D I M O U S
+i = 7: D I M O S U
+
+***********************************************************************
+* Ordene os caracteres da sequência UMDOIS mostrando o passo a passo  *
+* para o algoritmo QuickSort                                          *
+***********************************************************************
