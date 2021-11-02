@@ -31,9 +31,9 @@ int main()
 
         for(c = 0; c < n; c++)
         {
-            printf("\nMatricula do aluno %d: %s", c, ptr->matricula);
-            printf("\nSobrenome do aluno %d: %s", c, ptr->sobrenome);
-            printf("\nAno de Nascimento do aluno %d: %d", c, ptr->anoNasc);
+            printf("\nMatricula do aluno %d: %s", c + 1, ptr->matricula);
+            printf("\nSobrenome do aluno %d: %s", c + 1, ptr->sobrenome);
+            printf("\nAno de Nascimento do aluno %d: %d", c + 1, ptr->anoNasc);
             printf("\n");
         }
         free(ptr);
