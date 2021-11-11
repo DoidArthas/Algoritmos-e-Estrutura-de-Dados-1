@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1636044513 source:c:\users\neemias\documents\faculdade\comp2\algoritmos-e-estrutura-de-dados-1-e-2\lista 16\aluno\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	"aluno.h"
+
+1636044545 source:c:\users\neemias\documents\faculdade\comp2\algoritmos-e-estrutura-de-dados-1-e-2\lista 16\aluno\aluno.cpp
+	"aluno.h"
+	<stdio.h>
+	<stdlib.h>
+
+1636044295 c:\users\neemias\documents\faculdade\comp2\algoritmos-e-estrutura-de-dados-1-e-2\lista 16\aluno\aluno.h
+

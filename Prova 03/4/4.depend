@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1636126731 source:c:\users\neemias\documents\faculdade\comp2\algoritmos-e-estrutura-de-dados-1-e-2\prova 03\4\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	"agua.h"
+
+1636126669 c:\users\neemias\documents\faculdade\comp2\algoritmos-e-estrutura-de-dados-1-e-2\prova 03\4\agua.h
+
+1636126564 source:c:\users\neemias\documents\faculdade\comp2\algoritmos-e-estrutura-de-dados-1-e-2\prova 03\4\agua.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"agua.h"
+

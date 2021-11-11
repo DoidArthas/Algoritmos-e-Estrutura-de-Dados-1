@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1636053330 source:c:\users\neemias\documents\faculdade\comp2\algoritmos-e-estrutura-de-dados-1-e-2\lista 16\math\matematica.cpp
+	"Matematica.h"
+
+1635972654 c:\users\neemias\documents\faculdade\comp2\algoritmos-e-estrutura-de-dados-1-e-2\lista 16\math\matematica.h
+
+1636052864 source:c:\users\neemias\documents\faculdade\comp2\algoritmos-e-estrutura-de-dados-1-e-2\lista 16\math\main.cpp
+	<stdio.h>
+	"Matematica.h"
+
